@@ -13,10 +13,20 @@ import Footer from './Footer';
 const App = ({store}) => (
   <Provider store = {store}>
     <Router>
-    <img src="/assets/profile-buns.jpg" className="logo" alt="YAS" />
-      <Link className="header links" to="/"> Work-Blog  :</Link>
-      <Link className="header links" to="/lifeblog"> Life-Blog  :</Link>
-      <Link className="header links" to="/contact"> Contact</Link>
+      <div className="headercontainer">
+        <div className="header">
+          <div className="logocontainer">
+            <img className="logo" src="/assets/profile-buns.jpg" alt="YAS" />
+          </div>
+          <div className="linkscontainer">
+            <Link className="links" to="/"> WORK</Link>
+            &nbsp; &nbsp; <span> | </span> &nbsp; &nbsp;
+            <Link className="links" to="/lifeblog"> LIFE</Link>
+            &nbsp; &nbsp;<span> | </span> &nbsp; &nbsp;
+            <Link className="links" to="/contact"> CONTACT </Link>
+          </div>
+        </div>
+      </div>
       <Switch>
         <Route exact path="/" component={Workblog} />
         <Route path="/lifeblog" component={Lifeblog} />

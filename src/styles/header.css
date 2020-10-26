@@ -1,5 +1,37 @@
+.headercontainer {
+  background-color: #fcf8ee;
+  padding: 1em;
+  height: 6em;
+}
+
+.header {
+  width: 85%;
+  height: 100%;
+  margin: auto;
+}
+
+.logocontainer {
+  height: 100%;
+  float: left;
+  padding-left: 1em;
+}
+
 .logo {
-  height: 2em;
-  width: 2em;
+  height: 4em;
+  width: 4em;
   border-radius: 50%;
+  border: .25em solid white;
+}
+
+.linkscontainer {
+  float: right;
+  padding-right: 1em;
+  padding-top: 1.25em;
+  vertical-align: middle;
+}
+
+.links {
+  height: 64px;
+  vertical-align: middle;
+  letter-spacing: .15em;
 }
