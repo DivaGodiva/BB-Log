@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/index.css';
+import '../styles/header.css';
 import { Provider } from "react-redux";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Link } from 'react-router-dom'
@@ -12,10 +13,10 @@ import Footer from './Footer';
 const App = ({store}) => (
   <Provider store = {store}>
     <Router>
-      <span> 8=D </span>
-      <Link className="links" to="/"> Work-Blog  :</Link>
-      <Link className="links" to="/lifeblog"> Life-Blog  :</Link>
-      <Link className="links" to="/contact"> Contact</Link>
+    <img src="/assets/profile-buns.jpg" className="logo" alt="YAS" />
+      <Link className="header links" to="/"> Work-Blog  :</Link>
+      <Link className="header links" to="/lifeblog"> Life-Blog  :</Link>
+      <Link className="header links" to="/contact"> Contact</Link>
       <Switch>
         <Route exact path="/" component={Workblog} />
         <Route path="/lifeblog" component={Lifeblog} />
