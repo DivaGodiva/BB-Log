@@ -25,8 +25,8 @@
 .bblogcontainer {
   position: absolute;
   width: min-content;
-  margin: .5em 1em .5em 1em;
-  padding: .25em .5em .25em .5em;
+  margin: .25em 1em .25em 1em;
+  padding: .5em .5em .5em .5em;
   opacity: 0;
   transition: .5s;
   border-radius: 50%;
