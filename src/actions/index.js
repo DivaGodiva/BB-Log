@@ -1,6 +1,7 @@
-export const TEST_STORE = "TEST_STORE";
-export function testStore() {
+export const HEADER_TOGGLE = "HEADER_TOGGLE";
+export function toggleHeader(number) {
   return {
-    type: TEST_STORE
+    type: HEADER_TOGGLE,
+    number
   }
 }

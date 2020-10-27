@@ -1,26 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-const Header = () => (
+const Header = ({handleClick}) => (
   <div className="headercontainer">
     <div className="header">
       <div className="logocontainer">
         <img className="logo" src="/assets/profile-buns.jpg" alt="YAS" />
       </div>
-      <a href="/">
+      <a className="bblogcontainerlink"href="/">
         <div className="bblogcontainer">
           <span className="bblog">B: BLOG</span>
         </div>
       </a>
       <div className="linkscontainer">
-        <Link className="links" to="/workblog">WORK</Link>
-        <span> | </span>
-        <Link className="links" to="/lifeblog">LIFE</Link>
-        <span> | </span>
-        <Link className="links rightspacing" to="/contact">CONTACT</Link>
+        <Link className="links" to="/workblog" onClick={() => handleClick(0)}>WORK</Link>
+        <span className="separators"> | </span>
+        <Link className="links" to="/lifeblog" onClick={() => handleClick(1)}>LIFE</Link>
+        <span className="separators"> | </span>
+        <Link className="links" to="/contact" onClick={() => handleClick(2)}>CONTACT</Link>
       </div>
     </div>
   </div>
 )
+
+// onClick={handleClick}
 
 export default Header;

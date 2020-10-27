@@ -7,9 +7,8 @@ import Workblog from './Workblog';
 import Lifeblog from './Lifeblog';
 import Contact from './Contact';
 import Footer from './Footer';
-import Header from './Header';
+import Header from '../containers/Header_Container';
 import Landing from './Landing';
-// import TestNumberContainer from '../containers/TESTNUMBERCONTAINER'
 
 const App = ({store}) => (
   <Provider store = {store}>

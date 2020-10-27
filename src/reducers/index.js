@@ -1,13 +1,21 @@
-import { TEST_STORE } from "../actions/index";
+import { HEADER_TOGGLE } from "../actions/index";
 
 const initialState = {
   testNumbers: 0,
+  headerToggles: {
+    0: false,
+    1: false,
+    2: false
+  }
 };
 
 function rootReducer(state = initialState, action) {
-  if (action.type === TEST_STORE) {
+  if (action.type === HEADER_TOGGLE) {
+    console.log(`Link clicked - Previous state: ${state.headerToggles}`);
     return Object.assign({}, state, {
-      testNumbers: state.testNumbers + 1
+      headerToggles: Object.assign({...state.headerToggles}, {
+        [action.number]: !state.headerToggles[action.number]
+      })
     });
   }
   return state;
