@@ -5,9 +5,9 @@ const Workblog = () => (
     <header>
       Header Space
     </header>
-    <body>
+    <main>
       Body Space
-    </body>
+    </main>
   </div>
 )
 

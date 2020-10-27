@@ -5,9 +5,9 @@ const Lifeblog = () => (
     <header>
       hEaDer
     </header>
-    <body>
+    <main>
       bODy
-    </body>
+    </main>
   </div>
 )
 

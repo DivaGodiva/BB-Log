@@ -19,11 +19,11 @@ const App = ({store}) => (
             <img className="logo" src="/assets/profile-buns.jpg" alt="YAS" />
           </div>
           <div className="linkscontainer">
-            <Link className="links" to="/"> WORK</Link>
+            <Link className="links" to="/">WORK</Link>
             &nbsp; &nbsp; <span> | </span> &nbsp; &nbsp;
-            <Link className="links" to="/lifeblog"> LIFE</Link>
+            <Link className="links" to="/lifeblog">LIFE</Link>
             &nbsp; &nbsp;<span> | </span> &nbsp; &nbsp;
-            <Link className="links" to="/contact"> CONTACT </Link>
+            <Link className="links" to="/contact">CONTACT</Link>
           </div>
         </div>
       </div>

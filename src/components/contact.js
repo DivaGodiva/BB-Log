@@ -5,9 +5,9 @@ const Contact = () => (
     <header>
       nice head
     </header>
-    <body>
-      1-800-mah-body
-    </body>
+    <main>
+      1-800-mah-main
+    </main>
   </div>
 )
 
