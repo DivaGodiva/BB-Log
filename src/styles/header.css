@@ -35,6 +35,8 @@
 
 .bblog {
   background-color: transparent;
+  color: #9e3c17;
+  font-weight: bold;
 }
 
 .bblogcontainer:hover {
