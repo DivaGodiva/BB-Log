@@ -1,6 +1,7 @@
 .headercontainer {
   padding: 1em;
   height: 6em;
+  letter-spacing: .15em;
 }
 
 .header {
@@ -10,7 +11,6 @@
 }
 
 .logocontainer {
-  height: 100%;
   float: left;
   padding-left: 1em;
 }
@@ -19,7 +19,29 @@
   height: 4em;
   width: 4em;
   border-radius: 50%;
-  border: .25em solid white;
+  border: .35em solid white;
+}
+
+.bblogcontainer {
+  position: absolute;
+  width: min-content;
+  margin: .5em 1em .5em 1em;
+  padding: .25em .5em .25em .5em;
+  opacity: 0;
+  transition: .5s;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.bblog {
+  background-color: transparent;
+}
+
+.bblogcontainer:hover {
+  padding-left: 4.25em;
+  opacity: 100%;
+  transition: .5s;
+  background-color: transparent;
 }
 
 .linkscontainer {
@@ -29,11 +51,10 @@
 }
 
 .links {
-  margin: 0 1em 0em 1em;
+  margin: 0 1.5em 0em 1.5em;
   padding-bottom: .2em;
-  letter-spacing: .15em;
   display: inline-block;
-  border-bottom: .01em solid #fcf8ee;
+  border-bottom: .01em solid #fff6df;
   transition: .35s;
 }
 
@@ -41,5 +62,4 @@
   transition: .35s;
   border-bottom: .01em solid #2B2B2B;
   border-width: thin;
-
 }

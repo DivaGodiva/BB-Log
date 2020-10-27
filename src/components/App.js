@@ -18,11 +18,14 @@ const App = ({store}) => (
           <div className="logocontainer">
             <img className="logo" src="/assets/profile-buns.jpg" alt="YAS" />
           </div>
+          <div className="bblogcontainer">
+            <span className="bblog">B: BLOG</span>
+          </div>
           <div className="linkscontainer">
             <Link className="links" to="/">WORK</Link>
-            &nbsp; &nbsp; <span> | </span> &nbsp; &nbsp;
+            <span> | </span>
             <Link className="links" to="/lifeblog">LIFE</Link>
-            &nbsp; &nbsp;<span> | </span> &nbsp; &nbsp;
+            <span> | </span>
             <Link className="links" to="/contact">CONTACT</Link>
           </div>
         </div>
