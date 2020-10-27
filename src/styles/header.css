@@ -19,7 +19,7 @@
   height: 4em;
   width: 4em;
   border-radius: 50%;
-  border: .35em solid white;
+  border: .25em solid white;
 }
 
 .bblogcontainer {
@@ -62,4 +62,8 @@
   transition: .35s;
   border-bottom: .01em solid #2B2B2B;
   border-width: thin;
+}
+
+.rightspacing {
+  margin-right: 0;
 }
