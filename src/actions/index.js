@@ -5,3 +5,10 @@ export function toggleHeader(number) {
     number
   }
 }
+
+export const HEADER_TOGGLE_RESET = "HEADER_TOGGLE_RESET";
+export function resetHeader() {
+  return {
+    type: HEADER_TOGGLE_RESET,
+  }
+}

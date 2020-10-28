@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import { toggleHeader } from "../actions/index";
+import { toggleHeader, resetHeader } from "../actions/index";
 import Header from "../components/Header";
 
 const mapStateToProps = (state) => ({
@@ -7,7 +7,8 @@ const mapStateToProps = (state) => ({
 })
 
 const mapDispatchToProps = (dispatch) => ({
-  handleClick: number => dispatch(toggleHeader(number))
+  handleClick: number => dispatch(toggleHeader(number)),
+  handleMouseClick: () => dispatch(resetHeader())
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Header);

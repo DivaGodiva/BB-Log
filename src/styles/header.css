@@ -28,7 +28,7 @@
   margin: .25em 1em .25em 1em;
   padding: .5em .5em .5em .5em;
   opacity: 0;
-  transition: .5s;
+  transition: .35s;
   border-radius: 50%;
   background-color: transparent;
 }
@@ -42,7 +42,7 @@
 .bblogcontainer:hover {
   padding-left: 4.25em;
   opacity: 100%;
-  transition: .5s;
+  transition: .35s;
   background-color: transparent;
 }
 
@@ -55,7 +55,7 @@
 .links {
   padding-bottom: .2em;
   display: inline-block;
-  border-bottom: .01em solid #fff6df;
+  border-bottom: .01em solid #FFE8D1;
   transition: .35s;
 }
 

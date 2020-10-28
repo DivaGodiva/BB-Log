@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-const Header = ({handleClick}) => (
+const Header = ({handleClick, handleMouseClick}) => (
   <div className="headercontainer">
     <div className="header">
       <div className="logocontainer">
         <img className="logo" src="/assets/profile-buns.jpg" alt="YAS" />
       </div>
-      <a className="bblogcontainerlink"href="/">
+      <a className="bblogcontainerlink" href="/" onClick={handleMouseClick}>
         <div className="bblogcontainer">
           <span className="bblog">B: BLOG</span>
         </div>
