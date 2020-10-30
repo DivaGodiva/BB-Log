@@ -57,11 +57,19 @@
   display: inline-block;
   border-bottom: .01em solid #FFE8D1;
   transition: .35s;
+  color: #2B2B2B;
 }
 
 .links:hover {
   transition: .35s;
-  border-bottom: .01em solid #2B2B2B;
+  border-bottom: solid #2B2B2B;
+  border-width: thin;
+}
+
+.highlight {
+  font-weight: bolder;
+  color: black;
+  border-bottom: solid black;
   border-width: thin;
 }
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-const Header = ({handleClick, handleMouseClick}) => (
+const Header = ({handleClick, handleMouseClick, headerToggles}) => (
   <div className="headercontainer">
     <div className="header">
       <div className="logocontainer">
@@ -13,16 +13,14 @@ const Header = ({handleClick, handleMouseClick}) => (
         </div>
       </a>
       <div className="linkscontainer">
-        <Link className="links" to="/workblog" onClick={() => handleClick(0)}>WORK</Link>
+        <Link className={`links ${headerToggles[0] ? "highlight" : ""}`} to="/workblog" onClick={() => handleClick(0)}>WORK</Link>
         <span className="separators"> | </span>
-        <Link className="links" to="/lifeblog" onClick={() => handleClick(1)}>LIFE</Link>
+        <Link className={`links ${headerToggles[1] ? "highlight" : ""}`} to="/lifeblog" onClick={() => handleClick(1)}>LIFE</Link>
         <span className="separators"> | </span>
-        <Link className="links" to="/contact" onClick={() => handleClick(2)}>CONTACT</Link>
+        <Link className={`links ${headerToggles[2] ? "highlight" : ""}`} to="/contact" onClick={() => handleClick(2)}>CONTACT</Link>
       </div>
     </div>
   </div>
 )
-
-// onClick={handleClick}
 
 export default Header;
