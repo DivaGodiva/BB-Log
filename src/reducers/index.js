@@ -8,7 +8,7 @@ const initialState = {
     2: false
   },
   landingMessage: {
-    "Welcome to the..": "B: Blog."
+    "Welcome to the": "Blog."
   },
   messageuno: ["The Journey from Zero..", "When Life Gives You Flour..", "Hello,"],
   messagedos: ["to Half-a-Hero.", "Make Buns.", "Nice to Meet You!"]

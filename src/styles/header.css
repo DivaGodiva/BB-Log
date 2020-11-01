@@ -1,6 +1,6 @@
 .headercontainer {
-  padding: 1em;
-  height: 6em;
+  padding: .5em;
+  height: 5em;
   letter-spacing: .15em;
 }
 
@@ -13,11 +13,12 @@
 .logocontainer {
   float: left;
   padding-left: 1em;
+  padding-top: .25em;
 }
 
 .logo {
-  height: 4em;
-  width: 4em;
+  height: 3.5em;
+  width: 3.5em;
   border-radius: 50%;
   border: .25em solid white;
 }
