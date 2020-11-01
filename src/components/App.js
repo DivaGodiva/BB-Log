@@ -5,7 +5,7 @@ import '../styles/colorblock.css';
 import { Provider } from "react-redux";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from '../containers/Header_Container';
-import Colorblock from './Colorblock';
+import Colorblock from '../containers/Colorblock_Container';
 import Landing from './Landing';
 import Workblog from './Workblog';
 import Lifeblog from './Lifeblog';
