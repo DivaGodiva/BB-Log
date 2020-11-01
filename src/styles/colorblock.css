@@ -1,0 +1,33 @@
+.colorblock {
+  padding: 2em 2em 2em 2em;
+  height: 7em;
+  background-color: #736CED;
+  letter-spacing: .05em;
+  font-size: 2.5em;
+}
+
+.messagecontainer {
+  height: 100%;
+  width: 70%;
+  margin: auto;
+  background-color: #736CED;
+}
+
+.messagestack {
+  margin-left: 3em;
+  margin-right: 3em;
+  padding-top: .1em;
+  background-color: #736CED;
+  text-align: center;
+}
+
+.message {
+  display: inline-block;
+  color: #FEF9FF;
+  background-color: #736CED;
+  font-weight: lighter;
+}
+
+.message.dos {
+  font-weight: 900;
+}
