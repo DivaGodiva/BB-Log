@@ -1,17 +1,5 @@
 .colorblockcontainer {
-  display: block;
-}
-
-.colorblockimagecontainer {
-  height: 44em;
-  width: 90em;
-  background-image: url("/assets/beachboi.jpeg");
-  background-size: cover;
-}
-
-.colorblockimage {
-  height: 100%;
-  width: 100%;
+  background-color: #736CED;
 }
 
 .colorblock {

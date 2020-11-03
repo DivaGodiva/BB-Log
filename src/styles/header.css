@@ -2,6 +2,9 @@
   padding: .5em;
   height: 5em;
   letter-spacing: .15em;
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 
 .header {

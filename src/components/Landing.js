@@ -5,7 +5,7 @@ const Landing = () => (
     <header>
       Featured
     </header>
-    <main>
+    <main className="main">
       Your dumb face yah dink :]
     </main>
   </div>
