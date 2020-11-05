@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 
 const Header = ({handleClick, handleMouseClick, headerToggles}) => (
-  <div className="headercontainer">
+  <div className="headercontainer panels">
     <div className="header">
       <div className="logocontainer">
         <img className="logo" src="/assets/profile-buns.jpg" alt="YAS" />

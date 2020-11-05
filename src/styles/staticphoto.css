@@ -1,9 +1,6 @@
 .staticphotocontainer {
   height: 44em;
   width: 90em;
-  background-image: url("/assets/beachboi.jpeg");
-  /* background-size: cover; */
-  position: static;
 }
 
 .staticphotoimage {

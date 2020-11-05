@@ -1,9 +1,12 @@
 import React from 'react';
 
 const Colorblock = ({headerIndex, headerToggles, landingMessage, messageuno, messagedos}) => (
-  <div className="colorblockcontainer">
+  <div className="colorblockcontainer panels">
     <div className="colorblock">
       <div className="messagecontainer">
+        <div>
+          <a></a>
+        </div>
         <div className="messagestack">
           <h2 className="message uno">{headerToggles[headerIndex] ? messageuno[headerIndex] : Object.keys(landingMessage)[0]}</h2>
         </div>

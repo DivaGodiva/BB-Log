@@ -22,8 +22,29 @@ time, mark, audio, video {
   box-sizing: border-box;
   scroll-behavior: smooth;
   color: black;
-  background-color: #F2DFD7;
 }
+
+html {
+  background-color: #FEF9FF;
+}
+
+#root {
+  background-color: #D4C1EC;
+}
+
+/* #root {
+  position:absolute;
+  height:100%;
+  width:100%;
+} */
+
+/* .panels {
+  position: fixed;
+} */
+
+/* #staticy {
+  position: fixed;
+} */
 
 /* /
 #F2DFD7

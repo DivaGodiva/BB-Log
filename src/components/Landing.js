@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Landing = () => (
-  <div className="landing">
+  <div className="landing panels">
     <header>
       Featured
     </header>

@@ -5,6 +5,7 @@
   position: sticky;
   top: 0;
   width: 100%;
+  background-color: #FEF9FF;
 }
 
 .header {
@@ -23,7 +24,7 @@
   height: 3.5em;
   width: 3.5em;
   border-radius: 50%;
-  border: .25em solid white;
+  border: .2em solid #9F9FED;
 }
 
 .bblogcontainer {
@@ -39,8 +40,9 @@
 
 .bblog {
   background-color: transparent;
-  color: #9e3c17;
-  font-weight: bold;
+  color: #9F9FED;
+  font-weight: bolder;
+  text-shadow: .05em .05em .25em rgb(170, 170, 170);
 }
 
 .bblogcontainer:hover {
@@ -59,7 +61,7 @@
 .links {
   padding-bottom: .2em;
   display: inline-block;
-  border-bottom: .01em solid #F2DFD7;
+  border-bottom: .01em solid #FEF9FF;
   transition: .35s;
   color: #736CED;
   font-weight: bolder;
