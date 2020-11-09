@@ -1,13 +1,13 @@
 import React from 'react';
 
 const Contact = () => (
-  <div className="contact">
-    <header>
-      nice head
-    </header>
-    <main>
-      1-800-mah-main
-    </main>
+  <div className="contact panels">
+    <div className="contactheadercontainer">
+      <h2 className="contactheader"> Featured </h2>
+    </div>
+    <div className="contactbodycontainer">
+      <div className="contactbody"></div>
+    </div>
   </div>
 )
 
