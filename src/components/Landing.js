@@ -3,16 +3,23 @@ import React from 'react';
 const Landing = () => (
   <div className="landing panels">
     <div className="landingworkcontainer">
-      <h2 className="landingwork"> Featured Work</h2>
-    </div>
-    <div className="landingbodycontainer">
-      <div className="landingbody"></div>
+      <div className="landingworktitlecontainer">
+        <h2 className="landingworktitle"> Featured Work</h2>
+      </div>
+      <div className="landingworkbodycontainer">
+        {/* import work tiles here className="landingworkbody"*/}
+      </div>
     </div>
     <div className="landingblurbcontainer">
       <span className="landingblurb"> Blurb </span>
     </div>
     <div className="landinglifecontainer">
-      <h2 className="landinglife"> Featured Life</h2>
+      <div className="landinglifetitlecontainer">
+        <h2 className="landinglifetitle"> Featured Life</h2>
+      </div>
+      <div className="landinglifebodycontainer">
+        {/* import life tiles here className="landinglifebody"*/}
+      </div>
     </div>
   </div>
 )
