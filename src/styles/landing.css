@@ -1,3 +1,51 @@
+.landingcontainer {
+  height: 40em;
+}
+
 .landing {
-  height: 400px;
+  height: 100%;
+}
+
+.landingworkcontainer {
+  width: 81.5%;
+  margin: auto;
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
+.landingworktitle {
+  font-size: 1.1em;
+  color: #736CED;
+  letter-spacing: .15em;
+  font-weight: bold;
+}
+
+.landingblurbcontainer {
+  background-color: rgb(205, 180, 235);
+  padding: 6em 0em 6em 0em;
+}
+
+.landingblurbspancontainer {
+  width: 81.5%;
+  margin: auto;
+  text-align: center;
+}
+
+.landingblurb {
+  color: #FEF9FF;
+  font-size: 1.25em;
+}
+
+.landinglifecontainer {
+  width: 81.5%;
+  margin: auto;
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
+.landinglifetitle {
+  font-size: 1.1em;
+  color: #736CED;
+  letter-spacing: .15em;
+  font-weight: bold;
 }

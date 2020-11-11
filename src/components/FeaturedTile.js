@@ -3,7 +3,9 @@ import React from 'react';
 const FeaturedTile = () => (
   <div className="featuredtilecontainer">
     <div className="featuredtileimage">
-      <img></img>
+      <a>
+        <img></img>
+      </a>
     </div>
     <div className="featuredtiletitle">
       <h2></h2>
