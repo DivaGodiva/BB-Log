@@ -4,6 +4,7 @@ import '../styles/header.css';
 import '../styles/colorblock.css';
 import '../styles/staticphoto.css';
 import '../styles/landing.css';
+import '../styles/featuredtile.css';
 import '../styles/footer.css';
 import { Provider } from "react-redux";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';

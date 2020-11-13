@@ -1,4 +1,5 @@
 import React from 'react';
+import FeaturedTile from './FeaturedTile';
 
 const Landing = () => (
   <div className="landingcontainer panels">
@@ -8,7 +9,10 @@ const Landing = () => (
           <h2 className="landingworktitle"> FEATURED WORKS: </h2>
         </div>
         <div className="landingworkbodycontainer">
-          {/* import work tiles here className="landingworkbody"*/}
+          <FeaturedTile />
+          <FeaturedTile />
+          <FeaturedTile />
+          <FeaturedTile />
         </div>
       </div>
       <div className="landingblurbcontainer">

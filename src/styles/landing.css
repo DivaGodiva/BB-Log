@@ -1,5 +1,5 @@
 .landingcontainer {
-  height: 40em;
+  height: 50em;
 }
 
 .landing {
@@ -9,8 +9,8 @@
 .landingworkcontainer {
   width: 81.5%;
   margin: auto;
-  margin-top: 6em;
-  margin-bottom: 6em;
+  margin-top: 6.5em;
+  margin-bottom: 8em;
 }
 
 .landingworktitle {
@@ -33,14 +33,14 @@
 
 .landingblurb {
   color: #FEF9FF;
-  font-size: 1.25em;
+  font-size: 1.5em;
 }
 
 .landinglifecontainer {
   width: 81.5%;
   margin: auto;
-  margin-top: 6em;
-  margin-bottom: 6em;
+  margin-top: 6.5em;
+  margin-bottom: 8em;
 }
 
 .landinglifetitle {
