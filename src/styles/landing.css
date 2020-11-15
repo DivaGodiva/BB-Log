@@ -8,9 +8,17 @@
 
 .landingworkcontainer {
   width: 81.5%;
+  height: 100%;
   margin: auto;
   margin-top: 6.5em;
   margin-bottom: 8em;
+}
+
+.landingworkbodycontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 5em;
+  height: 100%;
 }
 
 .landingworktitle {

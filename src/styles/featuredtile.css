@@ -1,5 +1,14 @@
+.featuredtilecontainer {
+
+}
+
 .featuredtileimage {
-  height: 5em;
-  width: 6.5em;
-  border: solid black;
+  height: 90%;
+  width: 100%;
+  border: .1em solid black;
+}
+
+.featuredtiletitle {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
