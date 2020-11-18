@@ -1,11 +1,3 @@
-.landingcontainer {
-  height: 50em;
-}
-
-.landing {
-  height: 100%;
-}
-
 .landingworkcontainer {
   width: 81.5%;
   height: 100%;
@@ -19,6 +11,10 @@
   grid-template-columns: auto auto;
   grid-column-gap: 5em;
   height: 100%;
+}
+
+.landingworktitlecontainer {
+  margin-bottom: 1em;
 }
 
 .landingworktitle {
