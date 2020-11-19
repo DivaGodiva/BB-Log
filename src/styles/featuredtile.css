@@ -1,11 +1,11 @@
-.featuredtilecontainer {
-
+.featuredtileimagecontainer {
+  height: 22.5em;
+  width: 100%;
 }
 
 .featuredtileimage {
-  height: 22.5em;
+  height: 100%;
   width: 100%;
-  border: .1em solid black;
 }
 
 .featuredtiletitle {
