@@ -9,7 +9,7 @@
 .landingworkbodycontainer {
   display: grid;
   grid-template-columns: auto auto;
-  grid-column-gap: 5em;
+  grid-column-gap: 2em;
   height: 100%;
 }
 
@@ -47,9 +47,22 @@
   margin-bottom: 8em;
 }
 
+.landinglifetitlecontainer {
+  margin-bottom: 1em;
+}
+
 .landinglifetitle {
   font-size: 1.1em;
   color: #736CED;
   letter-spacing: .15em;
   font-weight: bold;
+}
+
+.landinglifebodycontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-rows: auto auto;
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
+  height: 100%;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
-import FeaturedTile from './FeaturedTile';
+import WorkTile from './WorkTile';
+import LifeTile from './LifeTile';
 
 const Landing = () => (
   <div className="landingcontainer panels">
@@ -9,10 +10,10 @@ const Landing = () => (
           <h2 className="landingworktitle"> FEATURED WORKS: </h2>
         </div>
         <div className="landingworkbodycontainer">
-          <FeaturedTile />
-          <FeaturedTile />
-          <FeaturedTile />
-          <FeaturedTile />
+          <WorkTile />
+          <WorkTile />
+          <WorkTile />
+          <WorkTile />
         </div>
       </div>
       <div className="landingblurbcontainer">
@@ -26,7 +27,10 @@ const Landing = () => (
           <h2 className="landinglifetitle"> FEATURED BLOGS: </h2>
         </div>
         <div className="landinglifebodycontainer">
-          {/* import life tiles here className="landinglifebody"*/}
+          <LifeTile />
+          <LifeTile />
+          <LifeTile />
+          <LifeTile />
         </div>
       </div>
     </div>

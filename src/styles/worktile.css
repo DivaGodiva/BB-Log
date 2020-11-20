@@ -1,0 +1,14 @@
+.worktileimagecontainer {
+  height: 23em;
+  width: 100%;
+}
+
+.worktileimage {
+  height: 100%;
+  width: 100%;
+}
+
+.worktiletitle {
+  margin-top: .5em;
+  margin-bottom: 1.5em;
+}

@@ -1,14 +1,14 @@
-.featuredtileimagecontainer {
-  height: 22.5em;
+.lifetileimagecontainer {
+  height: 23em;
   width: 100%;
 }
 
-.featuredtileimage {
+.lifetileimage {
   height: 100%;
   width: 100%;
 }
 
-.featuredtiletitle {
+.lifetiletitle {
   margin-top: .5em;
   margin-bottom: 1.5em;
 }
