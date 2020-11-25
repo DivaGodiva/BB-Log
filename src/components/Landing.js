@@ -10,7 +10,8 @@ const Landing = () => (
           <h2 className="landingworktitle"> FEATURED WORKS: </h2>
         </div>
         <div className="landingworkbodycontainer">
-          <WorkTile /> <WorkTile /> <WorkTile /> <WorkTile />
+          <WorkTile className="worktile1"/> <WorkTile className="worktile2"/> 
+          <WorkTile className="worktile3"/> <WorkTile className="worktile4"/>
         </div>
       </div>
       <div className="landingblurbcontainer">
@@ -24,7 +25,10 @@ const Landing = () => (
           <h2 className="landinglifetitle"> FEATURED BLOGS: </h2>
         </div>
         <div className="landinglifebodycontainer">
-          <LifeTile /> <LifeTile /> <LifeTile /> <LifeTile /> <LifeTile /> <LifeTile /> <LifeTile /> <LifeTile />
+          <LifeTile className="lifetile1"/> <LifeTile className="lifetile2"/> 
+          <LifeTile className="lifetile3"/> <LifeTile className="lifetile4"/> 
+          <LifeTile className="lifetile5"/> <LifeTile className="lifetile6"/> 
+          <LifeTile className="lifetile7"/> <LifeTile className="lifetile8"/>
         </div>
       </div>
     </div>

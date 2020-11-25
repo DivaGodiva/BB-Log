@@ -1,7 +1,7 @@
 import React from 'react';
 
-const LifeTile = () => (
-  <div className="lifetilecontainer">
+const LifeTile = ({ className }) => (
+  <div className={`lifetilecontainer ${className}`}>
     <div className="lifetileimagecontainer">
       <a className="lifelink"href="https://www.w3schools.com">
         <img className="lifetileimage" src="/assets/dummy-photo-2.jpg" alt="yas"></img>
