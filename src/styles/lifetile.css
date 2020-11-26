@@ -1,10 +1,11 @@
-.lifetilecontainer {
-  width: 16.5em;
+.lifetileimagecontainer {
+  height: 100%;
+  width: 100%;
 }
 
-.lifetileimagecontainer {
-  height: 16.5em;
-  width: 16.5em
+.standard {
+  height: 100%;
+  width: 100%;
 }
 
 .lifetileimage {
@@ -15,4 +16,13 @@
 .lifetiletitle {
   margin-top: .5em;
   margin-bottom: 1.5em;
+}
+
+.lifetile1 {
+  grid-row: 1 / span 2;
+}
+
+.lifetile6 {
+  grid-row: 2 / span 2;
+  grid-column: 3 / span 2;
 }

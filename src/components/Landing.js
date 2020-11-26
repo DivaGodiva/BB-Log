@@ -25,10 +25,10 @@ const Landing = () => (
           <h2 className="landinglifetitle"> FEATURED BLOGS: </h2>
         </div>
         <div className="landinglifebodycontainer">
-          <LifeTile className="lifetile1"/> <LifeTile className="lifetile2"/> 
-          <LifeTile className="lifetile3"/> <LifeTile className="lifetile4"/> 
-          <LifeTile className="lifetile5"/> <LifeTile className="lifetile6"/> 
-          <LifeTile className="lifetile7"/> <LifeTile className="lifetile8"/>
+          <LifeTile className="lifetile1 tall"/> <LifeTile className="lifetile2 standard"/> 
+          <LifeTile className="lifetile3 standard"/> <LifeTile className="lifetile4 standard"/> 
+          <LifeTile className="lifetile5 standard"/> <LifeTile className="lifetile6 box"/> 
+          <LifeTile className="lifetile7 standard"/> <LifeTile className="lifetile8 standard"/>
         </div>
       </div>
     </div>
