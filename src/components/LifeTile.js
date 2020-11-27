@@ -1,10 +1,10 @@
 import React from 'react';
 
-const LifeTile = ({ className }) => (
+const LifeTile = ({ className, index, lifePhotoArray, lifePhotoLinks }) => (
   <div className={`lifetilecontainer ${className}`}>
     <div className="lifetileimagecontainer">
-      <a className="lifelink"href="https://www.w3schools.com">
-        <img className="lifetileimage" src="/assets/dummy-photo-2.jpg" alt="yas"></img>
+      <a className="lifelink" href={lifePhotoLinks[index]}>
+        <img className="lifetileimage" src={lifePhotoArray[index]} alt="yas"></img>
       </a>
     </div>
     {/* <div className="lifetiletitle">

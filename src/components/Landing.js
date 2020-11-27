@@ -1,6 +1,6 @@
 import React from 'react';
 import WorkTile from '../containers/WorkTile_Container';
-import LifeTile from './LifeTile';
+import LifeTile from '../containers/LifeTile_Container';
 
 const Landing = () => (
   <div className="landingcontainer panels">
@@ -25,10 +25,10 @@ const Landing = () => (
           <h2 className="landinglifetitle"> FEATURED BLOGS: </h2>
         </div>
         <div className="landinglifebodycontainer">
-          <LifeTile className="lifetile1 tall"/> <LifeTile className="lifetile2 standard"/> 
-          <LifeTile className="lifetile3 standard"/> <LifeTile className="lifetile4 standard"/> 
-          <LifeTile className="lifetile5 standard"/> <LifeTile className="lifetile6 box"/> 
-          <LifeTile className="lifetile7 standard"/> <LifeTile className="lifetile8 standard"/>
+          <LifeTile className="lifetile1 tall" index="0"/> <LifeTile className="lifetile2 standard" index="1"/> 
+          <LifeTile className="lifetile3 standard" index="2"/> <LifeTile className="lifetile4 standard" index="3"/> 
+          <LifeTile className="lifetile5 standard" index="4"/> <LifeTile className="lifetile6 box" index="5"/> 
+          <LifeTile className="lifetile7 standard" index="6"/> <LifeTile className="lifetile8 standard" index="7"/>
         </div>
       </div>
     </div>
