@@ -1,5 +1,5 @@
 import React from 'react';
-import WorkTile from './WorkTile';
+import WorkTile from '../containers/WorkTile_Container';
 import LifeTile from './LifeTile';
 
 const Landing = () => (
@@ -10,8 +10,8 @@ const Landing = () => (
           <h2 className="landingworktitle"> FEATURED WORKS: </h2>
         </div>
         <div className="landingworkbodycontainer">
-          <WorkTile className="worktile1"/> <WorkTile className="worktile2"/> 
-          <WorkTile className="worktile3"/> <WorkTile className="worktile4"/>
+          <WorkTile className="worktile1" index="0"/> <WorkTile className="worktile2" index="1"/> 
+          <WorkTile className="worktile3" index="2"/> <WorkTile className="worktile4" index="3"/>
         </div>
       </div>
       <div className="landingblurbcontainer">

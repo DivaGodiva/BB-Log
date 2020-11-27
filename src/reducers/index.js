@@ -11,7 +11,11 @@ const initialState = {
     "Welcome to the": "Blog."
   },
   messageuno: ["The Journey from Zero..", "When Life Gives You Flour..", "Hello,"],
-  messagedos: ["to Half-a-Hero.", "Make Buns.", "Nice to Meet You!"]
+  messagedos: ["to Half-a-Hero.", "Make Buns.", "Nice to Meet You!"],
+  workPhotoArray: ["/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg"],
+  workPhotoLinks: ["https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com"],
+  lifePhotoArray: [],
+  lifePhotoLinks: []
 };
 
 function rootReducer(state = initialState, action) {
