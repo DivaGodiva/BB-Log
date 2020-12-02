@@ -1,0 +1,25 @@
+.workblog {
+  width: 81.5%;
+  height: 100%;
+  margin: auto;
+  margin-top: 6.5em;
+  margin-bottom: 8em;
+}
+
+.workblogtitlecontainer {
+  margin-bottom: 1em;
+}
+
+.workblogtitle {
+  font-size: 1.1em;
+  color: #736CED;
+  letter-spacing: .15em;
+  font-weight: bold;
+}
+
+.workblogbodycontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 2em;
+  height: 100%;
+}

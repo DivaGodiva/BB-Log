@@ -6,13 +6,6 @@
   margin-bottom: 8em;
 }
 
-.landingworkbodycontainer {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-column-gap: 2em;
-  height: 100%;
-}
-
 .landingworktitlecontainer {
   margin-bottom: 1em;
 }
@@ -22,6 +15,13 @@
   color: #736CED;
   letter-spacing: .15em;
   font-weight: bold;
+}
+
+.landingworkbodycontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 2em;
+  height: 100%;
 }
 
 .landingblurbcontainer {
@@ -66,5 +66,3 @@
   grid-row-gap: 1em;
   height: 100%;
 }
-
-/* add numbered classes to worktiles and lifetiles. */
