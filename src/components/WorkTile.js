@@ -14,3 +14,5 @@ const WorkTile = ({ className, index, workPhotoArray, workPhotoLinks }) => (
 )
 
 export default WorkTile;
+
+//ADD BOOLEAN CLAUSE

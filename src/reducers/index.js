@@ -14,6 +14,8 @@ const initialState = {
   messagedos: ["to Half-a-Hero.", "Make Buns.", "Nice to Meet You!"],
   workPhotoArray: ["/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg"],
   workPhotoLinks: ["https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com"],
+  workArray: ["/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg"],
+  workLinks: ["https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com"],
   lifePhotoArray: ["/assets/dummy-photo-2.jpg", "/assets/dummy-photo-2.jpg", "/assets/dummy-photo-2.jpg", "/assets/dummy-photo-2.jpg", "/assets/dummy-photo-2.jpg", "/assets/dummy-photo-2.jpg", "/assets/dummy-photo-2.jpg", "/assets/dummy-photo-2.jpg"],
   lifePhotoLinks: ["https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/"]
 };
