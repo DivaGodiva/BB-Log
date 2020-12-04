@@ -5,7 +5,7 @@ const Workblog = () => (
   <div className="workblogcontainer panels">
     <div className="workblog">
       <div className="workblogtitlecontainer">
-        <h2 className="workblogtitle"> ALL WORKS </h2>
+        <h2 className="workblogtitle"> ALL WORKS: </h2>
       </div>
       <div className="workblogbodycontainer">
         <WorkTile className="worktile1" index="0"/> <WorkTile className="worktile2" index="1"/> 

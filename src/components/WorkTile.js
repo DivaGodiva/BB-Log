@@ -14,5 +14,3 @@ const WorkTile = ({ className, index, boolean, workPhotoArray, workPhotoLinks, w
 )
 
 export default WorkTile;
-
-//ADD BOOLEAN CLAUSE
