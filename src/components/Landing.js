@@ -10,8 +10,8 @@ const Landing = () => (
           <h2 className="landingworktitle"> FEATURED WORKS: </h2>
         </div>
         <div className="landingworkbodycontainer">
-          <WorkTile className="worktile1" index="0" boolean="false"/> <WorkTile className="worktile2" index="1" boolean="false"/> 
-          <WorkTile className="worktile3" index="2" boolean="false"/> <WorkTile className="worktile4" index="3" boolean="false"/>
+          <WorkTile className="worktile1" index="0" boolean="true"/> <WorkTile className="worktile2" index="1" boolean="true"/> 
+          <WorkTile className="worktile3" index="2" boolean="true"/> <WorkTile className="worktile4" index="3" boolean="true"/>
         </div>
       </div>
       <div className="landingblurbcontainer">

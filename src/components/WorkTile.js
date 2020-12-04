@@ -1,10 +1,10 @@
 import React from 'react';
 
-const WorkTile = ({ className, index, workPhotoArray, workPhotoLinks }) => (
+const WorkTile = ({ className, index, boolean, workPhotoArray, workPhotoLinks, workArray, workLinks }) => (
   <div className={`worktilecontainer ${className}`}>
     <div className="worktileimagecontainer">
-      <a className="worklink" href={workPhotoLinks[index]}>
-        <img className="worktileimage" src={workPhotoArray[index]} alt="yas"></img>
+      <a className="worklink" href={boolean ? workPhotoLinks[index] : workLinks[index]}>
+        <img className="worktileimage" src={boolean ? workPhotoArray[index] : workArray[index]} alt="yas"></img>
       </a>
     </div>
     <div className="worktiletitle">
