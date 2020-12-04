@@ -1,6 +1,12 @@
 .worktileimagecontainer {
   height: 23em;
   width: 100%;
+  transition: .35s;
+}
+
+.worktileimagecontainer:hover {
+  transition: .35s;
+  opacity: 75%;
 }
 
 .worktileimage {
@@ -8,7 +14,14 @@
   width: 100%;
 }
 
+.worktiletitlecontainer {
+  margin-top: .75em;
+  margin-bottom: 1.75em;
+}
+
 .worktiletitle {
-  margin-top: .5em;
-  margin-bottom: 1.5em;
+  font-size: 1.1em;
+  letter-spacing: .05em;
+  color: #736CED;
+  font-weight: bold;
 }

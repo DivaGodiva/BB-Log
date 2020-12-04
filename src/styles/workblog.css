@@ -3,7 +3,7 @@
   height: 100%;
   margin: auto;
   margin-top: 6.5em;
-  margin-bottom: 8em;
+  margin-bottom: 7em;
 }
 
 .workblogtitlecontainer {
@@ -12,7 +12,7 @@
 
 .workblogtitle {
   font-size: 1.1em;
-  color: #736CED;
+  color: #635ebd;
   letter-spacing: .15em;
   font-weight: bold;
 }

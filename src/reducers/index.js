@@ -12,11 +12,13 @@ const initialState = {
   },
   messageuno: ["The Journey from Zero..", "When Life Gives You Flour..", "Hello,"],
   messagedos: ["to Half-a-Hero.", "Make Buns.", "Nice to Meet You!"],
-  workPhotoArray: ["/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg"],
+  workPhotoArray: ["/assets/dummy-photo-5.jpg", "/assets/dummy-photo-6.jpg", "/assets/dummy-photo-7.jpg", "/assets/dummy-photo-8.jpg"],
   workPhotoLinks: ["https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/"],
-  workArray: ["/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg", "/assets/dummy-photo.jpg"],
+  workPhotoTitles: ["EMVEE", "Friends of the Third Origin", "Caprock", "Optimist"],
+  workArray: ["/assets/dummy-photo-1.jpg", "/assets/dummy-photo-2.jpg", "/assets/dummy-photo-3.jpg", "/assets/dummy-photo-4.jpg", "/assets/dummy-photo-5.jpg", "/assets/dummy-photo-6.jpg", "/assets/dummy-photo-7.jpg", "/assets/dummy-photo-8.jpg"],
   workLinks: ["https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com"],
-  lifePhotoArray: ["/assets/dummy-photo-2.jpg", "/assets/dummy-photo-2.jpg", "/assets/dummy-photo-2.jpg", "/assets/dummy-photo-2.jpg", "/assets/dummy-photo-2.jpg", "/assets/dummy-photo-2.jpg", "/assets/dummy-photo-2.jpg", "/assets/dummy-photo-2.jpg"],
+  workTitles: ["Diamante", "Illumination Card Desgins", "Blue Maps", "Twinkie", "EMVEE", "Friends of the Third Origin", "Caprock", "Optimist"],
+  lifePhotoArray: ["/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg"],
   lifePhotoLinks: ["https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/"]
 };
 
