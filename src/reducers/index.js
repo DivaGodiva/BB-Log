@@ -19,7 +19,9 @@ const initialState = {
   workLinks: ["https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com"],
   workTitles: ["Diamante", "Illumination Card Desgins", "Blue Maps", "Twinkie", "EMVEE", "Friends of the Third Origin", "Caprock", "Optimist"],
   lifePhotoArray: ["/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg"],
-  lifePhotoLinks: ["https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/"]
+  lifePhotoLinks: ["https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/"],
+  lifeArray: ["/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg"],
+  lifeLinks: ["https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com"],
 };
 
 function rootReducer(state = initialState, action) {
