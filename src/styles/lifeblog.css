@@ -1,0 +1,26 @@
+.lifeblogcontainer {
+  width: 81.5%;
+  margin: auto;
+  margin-top: 6.5em;
+  margin-bottom: 8em;
+}
+
+.lifeblogtitlecontainer {
+  margin-bottom: 1em;
+}
+
+.lifeblogtitle {
+  font-size: 1.1em;
+  color: #635ebd;
+  letter-spacing: .15em;
+  font-weight: bold;
+}
+
+.lifeblogbodycontainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-auto-rows: auto auto auto;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  height: 100%;
+}

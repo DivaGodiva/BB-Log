@@ -8,6 +8,7 @@ import '../styles/worktile.css';
 import '../styles/lifetile.css';
 import '../styles/footer.css';
 import '../styles/workblog.css';
+import '../styles/lifeblog.css';
 import { Provider } from "react-redux";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from '../containers/Header_Container';
