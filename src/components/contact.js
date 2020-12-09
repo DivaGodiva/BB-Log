@@ -1,12 +1,21 @@
 import React from 'react';
 
 const Contact = () => (
-  <div className="contact panels">
-    <div className="contactheadercontainer">
-      <h2 className="contactheader"> Featured </h2>
+  <div className="contactcontainer panels">
+    <div className="contact">
+      <div className="contactheadercontainer">
+        <h2 className="contactheader"> Contact City and Weather Info </h2>
+      </div>
+      <div className="contactbodycontainer">
+        <h2 className="contactbody"> Map goes here </h2>
+      </div>
+      <div className="contactmessagecontainer">
+        <h2 className="contactmessage">Please send me a message with any and all inquiries.</h2>
+      </div>
     </div>
-    <div className="contactbodycontainer">
-      <div className="contactbody"></div>
+    <div className="contactinfocontainer">
+      <h2 className="contactinfo email"> s13chae@gmail.com </h2>
+      <h2 className="contactinfo number"> 310-427-2516 </h2>
     </div>
   </div>
 )
