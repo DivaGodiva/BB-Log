@@ -22,6 +22,7 @@ const initialState = {
   lifePhotoLinks: ["https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/", "https://www.google.com/"],
   lifeArray: ["/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg", "/assets/dummy-photo-0.jpg"],
   lifeLinks: ["https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com", "https://www.w3schools.com"],
+  staticPhotoArray: ["/assets/beachboi.jpeg", "/assets/beachboi.jpeg"],
 };
 
 function rootReducer(state = initialState, action) {

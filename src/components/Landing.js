@@ -1,10 +1,12 @@
 import React from 'react';
 import WorkTile from '../containers/WorkTile_Container';
 import LifeTile from '../containers/LifeTile_Container';
+// import Staticphoto from '../containers/Staticphoto_Container';
 
 const Landing = () => (
   <div className="landingcontainer panels">
     <div className="landing">
+      {/* <Staticphoto index="0"/> */}
       <div className="landingworkcontainer">
         <div className="landingworktitlecontainer">
           <h2 className="landingworktitle"> FEATURED WORKS: </h2>

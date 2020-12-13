@@ -1,8 +1,10 @@
 import React from 'react';
+// import Staticphoto from '../containers/Staticphoto_Container';
 
 const Contact = () => (
   <div className="contactcontainer panels">
     <div className="contact">
+      {/* <Staticphoto index="1"/> */}
       <div className="contactheadercontainer">
         <h2 className="contactheader"> Weather Info </h2>
       </div>
