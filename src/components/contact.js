@@ -16,8 +16,7 @@ const Contact = () => (
       </div>
     </div>
     <div className="contactinfocontainer">
-      <h2 className="contactinfo email"> s13chae@gmail.com </h2>
-      <h2 className="contactinfo number"> 310-427-2516 </h2>
+      <h2 className="contactinfo"> s13chae@gmail.com </h2>
     </div>
   </div>
 )
