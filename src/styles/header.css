@@ -24,7 +24,7 @@
   height: 3.5em;
   width: 3.5em;
   border-radius: 50%;
-  border: .2em solid #9F9FED;
+  border: .2em solid #748CAB;
 }
 
 .bblogcontainer {
@@ -40,7 +40,7 @@
 
 .bblog {
   background-color: transparent;
-  color: #736CED;
+  color: #748CAB;
   font-weight: bolder;
 }
 
@@ -62,25 +62,25 @@
   display: inline-block;
   border-bottom: .01em solid #FEF9FF;
   transition: .35s;
-  color: #736CED;
+  color: #748CAB;
   font-weight: bolder;
 }
 
 .links:hover {
   transition: .35s;
-  border-bottom: solid #736CED;
+  border-bottom: solid #748CAB;
   border-width: thin;
 }
 
 .highlight {
   font-weight: bolder;
-  color: black;
-  border-bottom: solid black;
+  color: #1D2D44;
+  border-bottom: solid #1D2D44;
   border-width: thin;
 }
 
 .separators {
   margin: 0 1.5em 0 1.5em;
-  color: #736CED;
+  color: #748CAB;
   font-weight: bolder;
 }

@@ -1,11 +1,11 @@
 .colorblockcontainer {
-  background-color: #736CED;
+  background-color: #748CAB;
 }
 
 .colorblock {
   padding: 2em 2em 2em 2em;
   height: 7em;
-  background-color: #736CED;
+  background-color: #748CAB;
   letter-spacing: .05em;
   font-size: 2.5em;
 }
@@ -14,21 +14,21 @@
   height: 100%;
   width: 70%;
   margin: auto;
-  background-color: #736CED;
+  background-color: #748CAB;
 }
 
 .messagestack {
   margin-left: 3em;
   margin-right: 3em;
   padding-top: .1em;
-  background-color: #736CED;
+  background-color: #748CAB;
   text-align: center;
 }
 
 .message {
   display: inline-block;
   color: #FEF9FF;
-  background-color: #736CED;
+  background-color: #748CAB;
   font-weight: lighter;
 }
 
