@@ -1,6 +1,6 @@
 .footercontainer {
   height: 12.5em;
-  background-color: #efe2ff;
+  background-color: #FEF9FF;
   padding: 1em;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .socials {
-  box-shadow: -.25em -.25em 1em #ffffff, .1em .1em 1.25em #cbc0d9;
+  box-shadow: -.25em -.25em 1em #ffffff, .1em .1em 1.25em #d8d4d9;
   padding: 1.3em 1.5em 1.3em 1.5em;
   border-radius: 50%;
   margin-left: .8em;
@@ -25,7 +25,7 @@
 }
 
 .socials:hover {
-  box-shadow: inset -.25em -.25em 1em #ffffff, inset .1em .1em 1.25em #cbc0d9;
+  box-shadow: inset -.25em -.25em 1em #ffffff, inset .1em .1em 1.25em #d8d4d9;
   padding: 1.3em 1.5em 1.3em 1.5em;
   border-radius: 50%;
   margin-left: .8em;
@@ -34,7 +34,7 @@
 
 .fa {
   font-size: 1.3em;
-  color: #9F9FED;
+  color: #748CAB;
 }
 
 .copyrightcontainer {
@@ -44,5 +44,5 @@
 .copyright {
   font-weight: bold;
   letter-spacing: .1em;
-  color: #9F9FED;
+  color: #748CAB;
 }
