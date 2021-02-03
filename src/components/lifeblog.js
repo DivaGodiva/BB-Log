@@ -5,7 +5,7 @@ const Lifeblog = () => (
   <div className="lifeblogcontainer panels">
     <div className="lifeblog">
       <div className="lifeblogtitlecontainer">
-        <h2 className="lifeblogtitle"> BLOGS </h2>
+        <h2 className="lifeblogtitle"> ALL BLOGS </h2>
       </div>
       <div className="lifeblogbodycontainer">
         <LifeTile className="lifetile1 tall" index="0"/> <LifeTile className="lifetile2 standard" index="1"/> 
