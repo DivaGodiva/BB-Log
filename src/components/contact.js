@@ -6,17 +6,17 @@ const Contact = () => (
     <div className="contact">
       {/* <Staticphoto index="1"/> */}
       <div className="contactheadercontainer">
-        <h2 className="contactheader"> Weather Info </h2>
+        <h2 className="contactheader"> Please send me a message. </h2>
       </div>
       <div className="contactbodycontainer">
-        <h2 className="contactbody"> staticphoto here </h2>
+        <h2 className="contactbody"> *staticphoto here* </h2>
       </div>
       <div className="contactmessagecontainer">
-        <h2 className="contactmessage">Please send me a message with any and all inquiries.</h2>
+        <h2 className="contactmessage"> For all buisness inquires: </h2>
       </div>
-    </div>
-    <div className="contactinfocontainer">
-      <h2 className="contactinfo"> s13chae@gmail.com </h2>
+      <div className="contactinfocontainer">
+        <h2 className="contactinfo"> s13chae@gmail.com </h2>
+      </div>
     </div>
   </div>
 )
