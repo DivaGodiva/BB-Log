@@ -7,6 +7,7 @@
 .worktileimagecontainer:hover {
   transition: .35s;
   opacity: 75%;
+  z-index: 0;
 }
 
 .worktileimage {

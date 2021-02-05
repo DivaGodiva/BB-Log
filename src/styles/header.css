@@ -3,6 +3,7 @@
   height: 5em;
   letter-spacing: .15em;
   position: sticky;
+  z-index: 1;
   width: 100%;
   top: 0;
   background-color: #FEF9FF;
