@@ -6,7 +6,7 @@ const Contact = () => (
     <div className="contact">
       {/* <Staticphoto index="1"/> */}
       <div className="contactheadercontainer">
-        <h2 className="contactheader"> Please send me a message. </h2>
+        <h2 className="contactheader"> mini about section </h2>
       </div>
       <div className="contactbodycontainer">
         <h2 className="contactbody"> *staticphoto here* </h2>
