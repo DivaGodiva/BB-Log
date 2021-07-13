@@ -28,6 +28,5 @@
 }
 
 .worktileimagecontainer:hover + .worktiletitlecontainer .worktiletitle{
-  /* color: #748CAB; */
   color: rgb(71, 124, 194);
 }
