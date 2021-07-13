@@ -23,6 +23,11 @@
 .worktiletitle {
   font-size: 1.1em;
   letter-spacing: .05em;
-  color: #748CAB;
+  color: grey;
   font-weight: bold;
+}
+
+.worktileimagecontainer:hover + .worktiletitlecontainer .worktiletitle{
+  /* color: #748CAB; */
+  color: rgb(71, 124, 194);
 }
