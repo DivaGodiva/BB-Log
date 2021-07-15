@@ -26,6 +26,27 @@ const initialState = {
 };
 
 function rootReducer(state = initialState, action) {
+  // if (action.type === HEADER_TOGGLE) {
+  //   console.log(`Link clicked - true, index: ${action.number}, ${state.headerIndex}`);
+  //   return Object.assign({}, state, {
+  //     headerIndex: action.number,
+  //     headerToggles: Object.assign({...state.headerToggles}, {
+  //       0: false,
+  //       1: false,
+  //       2: false,
+  //       [action.number]: true
+  //     })
+  //   });
+  // } else if (action.type === HEADER_TOGGLE_RESET) {
+  //   console.log(`Reset clicked`);
+  //   return Object.assign({}, state, {
+  //     headerToggles: {
+  //       0: false,
+  //       1: false,
+  //       2: false
+  //     }
+  //   })
+  // }
   if (action.type === HEADER_TOGGLE) {
     console.log(`Link clicked - true, index: ${action.number}, ${state.headerIndex}`);
     return Object.assign({}, state, {
@@ -37,15 +58,6 @@ function rootReducer(state = initialState, action) {
         [action.number]: true
       })
     });
-  } else if (action.type === HEADER_TOGGLE_RESET) {
-    console.log(`Reset clicked`);
-    return Object.assign({}, state, {
-      headerToggles: {
-        0: false,
-        1: false,
-        2: false
-      }
-    })
   }
   return state;
 };
